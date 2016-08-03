@@ -48,7 +48,7 @@ class CodeInclusionPreprocessor(Preprocessor):
         '''
         repo_url = self.get_import_url(url)
         v2_url = V2_IMPORT_URL + repo_url
-        return '<a href="%s" style="float:right; color:white;" class="button" target="_blank">Import into mbed Studio</a>' % v2_url
+        return '<a href="%s" style="float:right; color:white;" class="button" target="_blank">Import into mbed IDE</a>' % v2_url
 
     def get_source_url(self, url):
         parsed_url = urlparse(url)
