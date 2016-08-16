@@ -56,7 +56,8 @@ class CodeInclusionPreprocessor(Preprocessor):
     clone_url: %r,
     is_library: false,
     c9_enabled: false,
-    cli_enabled: true
+    cli_enabled: true,
+    userinfo_api: '/api-proxy/v3/userinfo/'
   });
 </script>
 """ % (str(compiler_url), str(clone_url))
